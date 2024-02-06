@@ -239,8 +239,18 @@ spec:
 
 ---
 
+```sh
+┌──(kali㉿kali)-[~/projects/weekly68]
+└─$ systemctl stop k3s  
 
+┌──(kali㉿kali)-[~/projects/weekly68]
+└─$ kubectl get all                 
+The connection to the server 127.0.0.1:6443 was refused - did you specify the right host or port?
 
+┌──(kali㉿kali)-[~/projects/weekly68]
+└─$ systemctl start k3s  
+
+```
 
 ---
 
